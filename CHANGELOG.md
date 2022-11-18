@@ -8,4 +8,4 @@
 
 ## [v0.0.0](https://github.com/ahmetshen/extension-activity-logs) - 202X-XX-XX
 
-- **initial release**
+- **Initial Release**
