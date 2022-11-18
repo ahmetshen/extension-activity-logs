@@ -28,7 +28,7 @@ Log Activity Inside Your Laravel Application
 
 | Package Version |
 |:---------------:|
-|     v0.0.0      |
+|     v0.1.0      |
 
 - - - - -
 
