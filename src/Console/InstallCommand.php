@@ -33,6 +33,10 @@ class InstallCommand extends Command
 
         // Database Files...
         $this->databaseFiles();
+        
+        $this->info('extensionActivityLogs scaffolding installed successfully.');
+
+        $this->comment('The installation process was carried out successfully. Please visit your web page.');
     }
 
     /**
