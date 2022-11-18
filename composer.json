@@ -1,0 +1,48 @@
+{
+    "name": "ahmetshen/extension-activity-logs",
+    "description": "Log Activity Inside Your Laravel Application",
+    "keywords": ["ahmetshen", "extension-activity-logs"],
+    "version": "v0.0.0",
+    "homepage": "https://github.com/ahmetshen/extension-activity-logs",
+    "license": "MIT",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/ahmetshen/extension-activity-logs/issues",
+        "source": "https://github.com/ahmetshen/extension-activity-logs"
+    },
+    "authors": [
+        {
+            "name": "Ahmet Şen",
+            "email": "ahmetshen.jr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/config": "^9.0",
+        "illuminate/filesystem": "^9.0",
+        "illuminate/support": "^9.0",
+        "illuminate/validation": "^9.0",
+        "spatie/laravel-activitylog": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmetShen\\ExtensionActivityLogs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AhmetShen\\ExtensionActivityLogs\\ExtensionActivityLogsServiceProvider"
+            ],
+            "aliases": {
+                "ExtensionActivityLogs": "AhmetShen\\ExtensionActivityLogs\\ExtensionActivityLogsFacade"
+            }
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
